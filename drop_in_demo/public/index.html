@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braintree Drop-in UI</title>
+</head>
+<body>
+
+<div>
+    <h2>Payment Details</h2>
+    <label for="amount">Enter Amount: </label>
+    <input type="text" id="amount">
+    
+    <div id="dropin-container"></div>
+    <button id="submit-button">Submit Payment</button>
+    
+    <h3>Transaction Result:</h3>
+    <pre id="transaction-result"></pre>
+</div>
+
+<script src="https://js.braintreegateway.com/web/dropin/1.40.2/js/dropin.js"></script>
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>

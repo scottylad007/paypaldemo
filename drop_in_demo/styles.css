@@ -1,0 +1,20 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+#dropin-container {
+    margin: 20px 0;
+}
+
+#transaction-result {
+    background-color: #f7f7f7;
+    padding: 10px;
+    overflow-x: scroll;
+}
