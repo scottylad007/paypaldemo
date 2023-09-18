@@ -10,7 +10,6 @@ braintree.dropin.create({
   button.addEventListener('click', function () {
     instance.requestPaymentMethod(function (err, payload) {
       // Send payload.nonce to your server
-      // Let's just show the nonce for the sake of this example
       document.getElementById('transaction-result').textContent = JSON.stringify(payload, null, 4);
     });
   });
